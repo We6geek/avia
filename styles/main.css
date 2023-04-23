@@ -69,7 +69,7 @@ span{
 .form-search{
     width: 100%;
     height: 465px;
-    background-image: url('/images/Group\ 8form-bg.png');
+    background-image: url('https://res.cloudinary.com/daavbaof3/image/upload/v1682281917/Group_8form-bg_b8nmd8.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -205,7 +205,7 @@ h1{
 .wu-block{
     width: 100%;
     height: 600px;
-    background-image: url('/images/Group\ 9wu-bgn.png');
+    background-image: url('https://res.cloudinary.com/daavbaof3/image/upload/v1682281922/Group_9wu-bgn_pxyfsq.png');
     background-size: cover;
     display: flex;
     flex-direction: column;

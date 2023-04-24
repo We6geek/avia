@@ -21,7 +21,7 @@
             <div class="change-circle" onclick=""><img src="./images/import_exportchange.png" class="form-change_img"></div>
             <input type="text" placeholder="Город прибытия" class="input-2nd">
             <input type="date" placeholder="Дата отправления" class="input-3th">
-            <input type="text" placeholder="Количество пассажиров" class="input-4th">
+            <input type="number" placeholder="Количество пассажиров" min="1" max="10" class="input-4th" id="input-4th">
             <button type="submit">Искать<img src="./images/east.png" alt="" class="button-img"></button>
         </div>
         <div class="about-block">
@@ -87,5 +87,15 @@
             <a href=""><div class="social-item"></div></a>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+	$('.input-4th').change(function(){
+		if (+$(this).attr('max') < $(this).val()) {
+			$(this).val($(this).attr('max'));
+		}
+	});
+});
+    </script>
 </body>
 </html>

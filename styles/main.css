@@ -84,6 +84,7 @@ span{
     height: 75px;
     border-radius: 15px 0 0 15px;
     border: none;
+    text-align: center;
 }
 .input-2nd{
     width: 250px;
@@ -92,6 +93,7 @@ span{
     border: none;
     margin-left: 6px;
     margin-right: 15px;
+    text-align: center;
 }
 .change-circle{
     width: 50px;
@@ -99,7 +101,7 @@ span{
     border-radius: 50px;
     position: absolute;
     background: #131C25;
-    margin-left: -543px;
+    margin-left: -575px;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -113,7 +115,11 @@ span{
     width: 250px;
     height: 75px;
     border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Inder', sans-serif;
+    font-size: 14px;
     border: none;
+    text-align: center;
     margin-left: 6px;
     margin-right: 15px;
 }
@@ -123,14 +129,14 @@ span{
     width: auto;
 }
 button{
-    width: 256px;
+    width: 270px;
     height: 50px;
     background-color: #FF2424;
     border: none;
     border-radius: 20px;
     position: absolute;
     margin-top: 160px;
-    margin-left: 800px;
+    margin-left: 825px;
     font-family: 'Inder', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -153,7 +159,9 @@ button:hover{
     width: 250px;
     height: 75px;
     border-radius: 15px;
+    text-align: center;
     border: none;
+    padding-right: 20px;
 }
 .about-block{
     width: 100%;
@@ -205,18 +213,18 @@ h1{
 .wu-block{
     width: 100%;
     height: 600px;
-    background-image: url('https://res.cloudinary.com/daavbaof3/image/upload/v1682281922/Group_9wu-bgn_pxyfsq.png');
+    background-image: url('https://res.cloudinary.com/daavbaof3/image/upload/v1682349387/Group_8wu-bg_new_l2qyan.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
 }
 .wu-block_h1{
     font-family: 'Inder', sans-serif;
     font-size: 36px;
     color: #FFFFFF;
-    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .wu-hr{
     width: 400px;
